@@ -1,0 +1,11 @@
+!!!
+%html
+  %head
+    %title= current_page.data.title || "The Middleman"
+    = stylesheet_link_tag "normalize"
+    = javascript_include_tag  "all"
+
+  %body{class: page_classes}
+    %header
+      %h1 Clone
+    = yield
