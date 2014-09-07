@@ -8,4 +8,8 @@
   %body{class: page_classes}
     %header
       %h1 Clone
-    = yield
+    %article.main
+      = yield
+    %footer
+      = link_to "Preorder", "#"
+      = link_to "Credits", "/credits.html"
