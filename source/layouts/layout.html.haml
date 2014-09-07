@@ -2,14 +2,10 @@
 %html
   %head
     %title The Clone Project
+    = stylesheet_link_tag 'http://fonts.googleapis.com/css?family=Lato:100,300,400'
     = stylesheet_link_tag "reset","app"
     = javascript_include_tag  "all"
 
-  %body{class: page_classes}
-    %header
-      %h1 Clone
-    %article.main
+  %body
+    %article
       = yield
-    %footer
-      = link_to "Preorder", "#"
-      = link_to "Credits", "/credits.html"
