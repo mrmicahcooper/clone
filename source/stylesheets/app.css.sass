@@ -10,39 +10,89 @@ article
 
   h1, h2, h3, h4
     font-weight: normal
-    text-align: center
 
   h1
     font-size: 80px
     text-transform: uppercase
     font-weight: 200
+    background: url('/images/logo.jpg') no-repeat
+    width: 587px
+    height: 84px
+    margin: 80px auto 0 auto
+    text-indent: -9999px
+
   h2
     font-size: 18px
     text-transform: uppercase
     font-weight: 300
 
-
 header
   position: relative
   nav
+    .next
+      right: 20px
+      background: url('/images/next.jpg') no-repeat
+
+    .previous
+      left: 20px
+      background: url('/images/previous.jpg') no-repeat
+
     a
       position: absolute
       top: 0
       text-decoration: none
       font-size: 35px
+      width: 19px
+      height: 31px
+      text-indent: -9999px
 
-    .next
-      right: 0
-    .previous
-      left: 0
+  h2
+    height: 23px
+    width: 582px
+    text-indent: -9999px
+    margin: 27px auto 45px auto
+
+h2.the_laboratory
+  background: url('/images/the_laboratory.jpg') no-repeat
+
+h2.the_fields
+  background: url('/images/the_fields.jpg') no-repeat
+
+h2.the_city_daytime
+  background: url('/images/the_city_daytime.jpg') no-repeat
+
+h2.the_city_nighttime_part_1
+  background: url('/images/the_city_nighttime_part_1.jpg') no-repeat
+
+h2.the_city_nighttime_part_2
+  background: url('/images/the_city_nighttime_part_2.jpg') no-repeat
+
+h2.the_ocean
+  background: url('/images/the_ocean.jpg') no-repeat
 
 #main
-  height: 400px
+  height: 540px
+  width: 965px
   display: block
   background: #efefef
+  margin: 0 auto
 
 footer
   text-align: center
   a
-    text-transform: uppercase
-    text-decoration: none
+    text-indent: -9999px
+    display: inline-block
+    margin: 40px 29px 30px 29px
+
+    &.preorder
+      background: url('/images/preorder.jpg') no-repeat
+      width: 133px
+    &.act_info
+      background: url('/images/act_info.jpg') no-repeat
+      width: 123px
+    &.images
+      background: url('/images/images.jpg') no-repeat
+      width: 95px
+    &.credits
+      background: url('/images/credits.jpg') no-repeat
+      width: 117px
