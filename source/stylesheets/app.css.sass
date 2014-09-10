@@ -4,6 +4,7 @@
 body, a
   font-family: 'Lato', sans-serif
   font-weight: 300
+  position: relative
 
 article
   margin: 0 auto
@@ -15,10 +16,11 @@ article
     font-size: 80px
     text-transform: uppercase
     font-weight: 200
-    background: url('/images/logo.jpg') no-repeat
+    background: url('/images/logo.jpg') no-repeat 0 80px
     width: 587px
     height: 84px
-    margin: 80px auto 0 auto
+    margin: 0 auto
+    padding-top: 80px
     text-indent: -9999px
 
   h2
@@ -39,7 +41,7 @@ header
 
     a
       position: absolute
-      top: 0
+      top: 80px
       text-decoration: none
       font-size: 35px
       width: 19px
@@ -96,3 +98,9 @@ footer
     &.credits
       background: url('/images/credits.jpg') no-repeat
       width: 117px
+
+.countdown
+  position: absolute
+  top: 20px
+  left: 50%
+  margin-left: -50px
