@@ -1,0 +1,98 @@
+---
+layout: act_info
+---
+
+
+# 0:00 – 1:19:
+
+__Subject 006__ comes online. Life-support machines and vitality monitors beep and hum. Heartbeat is consistent. Breathing is normal. He experiences pins and needles from head to toe as his senses become active.
+
+## Voice Feed:
+
+_Feel the fluid building._
+_Feel it hum beneath my eyes._
+_Feel it drip and rest beneath the cradle of my brain._
+_Feel my fingers twitching._
+_Feel the static in my toes._
+_Blackness changes to light._
+_I now have eyes._
+
+
+# 1:19 – 2:03:
+
+__Subject 006__ opens his eyes for the first time. It's painful. Through squinted eyes he looks down at the straps that bind him to the bed, the wires and patches on his skin. He removes them.
+
+## Voice Feed:
+
+_Lightness turns to colors._
+_Filling space between shapes and lines._
+_Blurry spots are fading in and out._
+_I don't know why._
+_Find the straps that hold me._
+_Pull the wires from my skin._
+_Sit up and turn._
+_It's time I learned._
+_Take a breath._
+
+# 2:03 – 3:00:
+__Subject 006__ walks for the first time. His movements are awkward and unsure. His muscles burn from lack of use. Despite the pain, he's exhilarated.
+
+## Voice Feed:
+_I can go anywhere!_
+_Over here, over there!_
+_By the door, down the stairs!_
+_I'm light as a feather!_
+
+# 3:00 – 3:15:
+__Subject 006__ is lightheaded from the exertion. He holds onto the walls as he walks to the door. He suppresses vomit.
+
+# 3:15 – 4:45:
+__Subject 006__ steps out into the hallway. It, like the lab, is abandoned. Small red safety lights that line the hall pulse slowly. The rooms are all dark. He turns left and it feels familiar, as though he's walked this way many times before.
+
+The hall leads to one of the larger facilities in the building. The facility is full of complex machinery, charts, and recently abandoned experiments. A large blinking light on the adjacent door catches his eye. He presses it.
+
+## Voice Feed:
+_Endless blinking lights and doors and walls._
+_Going on, and on, and on, and on._
+_Rows of locks all paired with silver handles._
+_I wonder what's beyond this hall._
+_Walking underneath fluorescent sky._
+_Hand to handle, turn and open wide._
+_Step inside and now I see a single light's allure for thumb against the switch._
+
+# 4:45 – 6:03:
+Lights turn on. The machines return to their former operations. __Subject 006__ is frightened by the movement. He questions whether they mean him harm.
+
+## Voice Feed:
+_There's something wrong._
+_What have I done?_
+_The room is waking up._
+_The hum is swelling._
+_Oh, the metal arms move on their own._
+_I don't know why, but I feel something's wrong._
+_Do they mean me harm, or do they have an agenda of their own?_
+_Am I overreacting?_
+
+# 6:03 – 8:00:
+__Subject 006__ stumbles into an adjacent room. It is intensely familiar. He looks into a mirror for the first time. He then notices photographs of a scientist and his family on the desk. He and the scientist, Atticus, share the same face. __Subject 006__ investigates further, finding charts of his development, and how he came to be. He looks again at the photographs on the desk. He smiles. Atticus is his father.
+
+__Subject 006__ peers behind a curtain that divides the room. Behind it are five large glass tubes. Each contains a man suspended in amber liquid. Their appearances are similar, only deformed. __Subject 006__ realizes these men are former, less successful versions of himself. They were shelved due to defects, but continue to be studied. As __Subject 006__ approaches, he notices they are awake. The most recent version and highest functioning of the group, Subject 005, communicates with him through the glass via body language. He convinces __Subject 006__ to use the panel near their tubes to drain the fluid.
+
+## Voice Feed:
+_Rows of people just like me, afloat in tubes of glass._
+_All their faces fixed on me._
+_I am them. They are me._
+_Then one moves its hand and mouths,_
+_"Please save us. Please save me."_
+_Why are they all smiling?_
+
+# 8:00 – 8:15:
+The liquid drains from the tubes. From The Defects' (Subjects 001 – 005) expressions, __Subject 006__ feels uneasy.
+
+# 8:15 – End:
+The Defects pound on the glass, shattering the tubes. Some are more efficient than others. An alarm sounds. It is deafening. The lights around the room flash red. The Defects crawl toward __Subject 006__. He runs, back through the room with the metal arms, out into the hallway. The Defects begin screaming.
+
+__Subject 006__ runs out the entrance to the facility. He is blinded by his first glimpse of sunlight.
+
+
+[<](/the_laboratory.html)
