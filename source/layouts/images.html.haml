@@ -1,0 +1,14 @@
+!!!
+%html
+  = partial "head"
+
+  %body
+    %header#header
+      %h1.images Images
+      .countdown
+    %article#content
+      = yield
+
+    %footer
+      %nav
+        = link_to "<", "index.html", class: 'previous'

@@ -37,9 +37,16 @@ body, a
     letter-spacing: 90px
     padding-top: 80px
 
+  h1.images
+    letter-spacing: 66px
+
+  h1.credits
+    letter-spacing: 48px
+
 #content
-  text-align: center
   h2
+    width: 625px
+    margin: 0 auto
     font-size: 25px
     text-transform: uppercase
     font-weight: 300
@@ -67,22 +74,23 @@ body, a
 
   nav
     .next
+      position: absolute
       float: right
       right: 20px
 
     .previous
+      position: absolute
       float: left
       left: 20px
 
-    a
-      position: absolute
-      top: 80px
-      text-decoration: none
-      font-size: 35px
-      font-family: 'basictitlefont'
-      width: 19px
-      height: 31px
-      font-size: 70px
+.next, .previous
+  top: 80px
+  text-decoration: none
+  font-size: 35px
+  font-family: 'basictitlefont'
+  width: 19px
+  height: 31px
+  font-size: 70px
 
 #content
   section.video
