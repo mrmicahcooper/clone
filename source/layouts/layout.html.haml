@@ -7,6 +7,15 @@
     = javascript_include_tag  "jquery-2.1.1.min.js", "all"
 
   %body
-    %article
+    %header#header
+      %h1 Clone
+      .countdown
+    %article#content
       = yield
-    .countdown
+
+    %footer
+      %nav
+        = link_to "Preorder", "#", class: 'preorder'
+        = link_to "Act Info", "#", class: 'act_info'
+        = link_to "Images", 'all_images.html', class: 'images'
+        = link_to "Credits", "credits.html", class: 'credits'

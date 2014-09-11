@@ -1,106 +1,107 @@
+@font-face
+  font-family: 'basictitlefont'
+  src: url('/fonts/basictitlefont.eot')
+  src: url('/fonts/basictitlefont.eot?#iefix') format('embedded-opentype'), url('/fonts/basictitlefont.woff2') format('woff2'), url('/fonts/basictitlefont.woff') format('woff'), url('/fonts/basictitlefont.ttf') format('truetype'), url('/fonts/basictitlefont.svg#basic_title_fontregular') format('svg')
+  font-weight: normal
+  font-style: normal
+
+
+@font-face
+  font-family: 'futurist'
+  src: url('/fonts/furfw.eot')
+  src: url('/fonts/furfw.eot?#iefix') format('embedded-opentype'), url('/fonts/furfw.woff2') format('woff2'), url('/fonts/furfw.woff') format('woff'), url('/fonts/furfw.ttf') format('truetype'), url('furfw.svg#futurist_fixed-widthregular') format('svg')
+  font-weight: normal
+  font-style: normal
+
 *
   color: #333333
+  font-weight: normal
+  text-align: center
 
 body, a
-  font-family: 'Lato', sans-serif
+  font-family: 'futurist', sans-serif
   font-weight: 300
   position: relative
 
-article
-  margin: 0 auto
-
-  h1, h2, h3, h4
-    font-weight: normal
+#header
+  position: relative
+  text-align: center
 
   h1
-    font-size: 80px
-    text-transform: uppercase
-    font-weight: 200
-    background: url('/images/logo.jpg') no-repeat 0 80px
-    width: 587px
-    height: 84px
+    font-size: 110px
+    width: 625px
     margin: 0 auto
+    font-weight: normal
+    text-transform: uppercase
+    font-family: 'basictitlefont'
+    letter-spacing: 90px
     padding-top: 80px
-    text-indent: -9999px
 
+#content
+  text-align: center
   h2
-    font-size: 18px
+    font-size: 25px
     text-transform: uppercase
     font-weight: 300
+    font-family: 'futurist'
+    margin: 20px  auto 60px auto
+    color: #9c9c9c
 
-header
-  position: relative
+    &.the_laboratory
+      letter-spacing: 18px
+
+    &.the_fields
+      letter-spacing: 35px
+
+    &.the_city_daytime
+      letter-spacing: 10px
+
+    &.the_city_nighttime_part_1
+      letter-spacing: -2px
+
+    &.the_city_nighttime_part_2
+      letter-spacing: -2px
+
+    &.the_ocean
+      letter-spacing: 40px
+
   nav
     .next
+      float: right
       right: 20px
-      background: url('/images/next.jpg') no-repeat
 
     .previous
+      float: left
       left: 20px
-      background: url('/images/previous.jpg') no-repeat
 
     a
       position: absolute
       top: 80px
       text-decoration: none
       font-size: 35px
+      font-family: 'basictitlefont'
       width: 19px
       height: 31px
-      text-indent: -9999px
+      font-size: 70px
 
-  h2
-    height: 23px
-    width: 582px
-    text-indent: -9999px
-    margin: 27px auto 45px auto
-
-h2.the_laboratory
-  background: url('/images/the_laboratory.jpg') no-repeat
-
-h2.the_fields
-  background: url('/images/the_fields.jpg') no-repeat
-
-h2.the_city_daytime
-  background: url('/images/the_city_daytime.jpg') no-repeat
-
-h2.the_city_nighttime_part_1
-  background: url('/images/the_city_nighttime_part_1.jpg') no-repeat
-
-h2.the_city_nighttime_part_2
-  background: url('/images/the_city_nighttime_part_2.jpg') no-repeat
-
-h2.the_ocean
-  background: url('/images/the_ocean.jpg') no-repeat
-
-#main
-  height: 540px
-  width: 965px
-  display: block
-  background: #efefef
-  margin: 0 auto
+#content
+  section.video
+    height: 540px
+    width: 965px
+    display: block
+    background: #efefef
+    margin: 0 auto
 
 footer
-  text-align: center
+  margin-top: 20px
   a
-    text-indent: -9999px
+    text-decoration: none
     display: inline-block
-    margin: 40px 29px 30px 29px
-
-    &.preorder
-      background: url('/images/preorder.jpg') no-repeat
-      width: 133px
-    &.act_info
-      background: url('/images/act_info.jpg') no-repeat
-      width: 123px
-    &.images
-      background: url('/images/images.jpg') no-repeat
-      width: 95px
-    &.credits
-      background: url('/images/credits.jpg') no-repeat
-      width: 117px
+    margin: 0 15px
+    text-transform: uppercase
 
 .countdown
   position: absolute
+  width: 100%
   top: 20px
-  left: 50%
-  margin-left: -50px
+  text-align: center
