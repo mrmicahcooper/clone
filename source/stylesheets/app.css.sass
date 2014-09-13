@@ -20,7 +20,6 @@
 
 body, a
   font-family: 'futurist', sans-serif
-  font-weight: 300
   position: relative
 
 #header
@@ -31,11 +30,10 @@ body, a
     font-size: 110px
     width: 625px
     margin: 0 auto
-    font-weight: normal
     text-transform: uppercase
     font-family: 'basictitlefont'
     letter-spacing: 90px
-    padding-top: 80px
+    padding-top: 40px
 
   h1.images
     letter-spacing: 66px
@@ -49,28 +47,27 @@ body, a
     margin: 0 auto
     font-size: 25px
     text-transform: uppercase
-    font-weight: 300
     font-family: 'futurist'
     margin: 20px  auto 60px auto
     color: #9c9c9c
 
-    &.the_laboratory
-      letter-spacing: 18px
+h2.the_laboratory
+  letter-spacing: 18px
 
-    &.the_fields
-      letter-spacing: 35px
+h2.the_fields
+  letter-spacing: 35px
 
-    &.the_city_daytime
-      letter-spacing: 10px
+h2.the_city_daytime
+  letter-spacing: 10px
 
-    &.the_city_nighttime_part_1
-      letter-spacing: -2px
+h2.the_city_nighttime_part_1
+  letter-spacing: -2px
 
-    &.the_city_nighttime_part_2
-      letter-spacing: -2px
+h2.the_city_nighttime_part_2
+  letter-spacing: -2px
 
-    &.the_ocean
-      letter-spacing: 40px
+h2.the_ocean
+  letter-spacing: 40px
 
   nav
     .next
@@ -101,24 +98,26 @@ body, a
     margin: 0 auto
 
   .credits
+    padding-top: 5px
     dt
-      font-family: 'basictitlefont'
+      font-family: 'Source Code Pro'
       text-transform: uppercase
       font-size: 40px
       text-decoration: underline
-      padding: 15px 0
     dd
-      padding: 0 0 10px 0
+      padding: 25px 0 38px 0
       font-family: "Source Code Pro"
 
 
 footer
-  margin-top: 20px
+  margin-top: 60px
   a
     text-decoration: none
     display: inline-block
     margin: 0 15px
     text-transform: uppercase
+  .previous
+    top: 0
 
 .countdown
   position: absolute
@@ -127,12 +126,12 @@ footer
   text-align: center
 
 #images
-  padding: 40px
+  padding: 40px 40px 0 40px
   img
     margin: 16px 0
 
 #act_info
-  padding: 50px
+  padding: 0  50px 50px 50px
   max-width: 760px
   margin: 0 auto
   font-family: "Source Code Pro"
@@ -143,12 +142,13 @@ footer
 
   h1
     font-size: 18px
-    font-weight: bold
     padding-top: 15px
-  h2
+    font-family: "Source Code Pro"
     font-weight: bold
+  h2
     font-style: italic
     padding-top: 10px
+    font-weight: bold
   a
     text-decoration: none
     font-size: 35px
@@ -157,3 +157,12 @@ footer
     display: inline-block
     padding: 20px
 
+  h2.the_laboratory
+    width: 625px
+    margin: 20px auto 60px auto
+    font-size: 25px
+    text-transform: uppercase
+    font-family: 'futurist'
+    color: #9c9c9c
+    font-style: normal
+    padding: 0
