@@ -3,11 +3,9 @@
   = partial "head"
 
   %body
-    %header#header
+    %header
       %h1.credits Credits
-      .countdown
-    %article#content
-      = yield
+    %main= yield
 
     %footer
       %nav

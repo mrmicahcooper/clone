@@ -3,8 +3,6 @@
   = partial "head"
 
   %body
-    %header#header
+    %header
       %h1 Clone
-      .countdown
-    %article#act_info
-      = yield
+    %main= yield
