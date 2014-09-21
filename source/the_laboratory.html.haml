@@ -1,11 +1,11 @@
+- content_for :title do
+  %nav
+    = link_to ">", "#", class: "next"
+  %h1 Clone
+  %h2.the_laboratory The Laboratory
+
+%article#video
+  %iframe(width="960" height="540" src="//www.youtube.com/embed/IJ4ExIHet3U" frameborder="0" allowfullscreen)
+
 - content_for :act_info do
   = link_to "Act Info", 'act_info/the_laboratory.html'
-
-%article#act
-  %header
-    %h2.the_laboratory The Laboratory
-    %nav
-      = link_to ">", "#", class: "next"
-
-  %section.video
-    %iframe(width="960" height="540" src="//www.youtube.com/embed/IJ4ExIHet3U" frameborder="0" allowfullscreen)

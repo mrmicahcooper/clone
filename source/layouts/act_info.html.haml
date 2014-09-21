@@ -3,6 +3,10 @@
   = partial "head"
 
   %body
-    %header
-      %h1 Clone
+    %header= yield_content :title
+
     %main= yield
+
+    %footer
+      %nav
+        = yield_content :footer
