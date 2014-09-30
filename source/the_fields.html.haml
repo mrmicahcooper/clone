@@ -1,7 +1,12 @@
-%header
-  %h2.the_fields The fields
+- content_for :title do
   %nav
     = link_to "<", "the_laboratory.html", class: "previous"
-    = link_to ">", "the_city_daytime.html", class: "next"
+    = link_to ">", "#", class: "next"
+  %h1 Clone
+  %h2.the_fields The Fields
 
-%section.video
+%article#video
+  %iframe(width="960" height="540" src="//www.youtube.com/embed/Jd26NyKVyj4" frameborder="0" allowfullscreen)
+
+- content_for :act_info do
+  = link_to "Act Info", 'act_info/the_fields.html'
