@@ -1,9 +1,9 @@
-%header
-  %h1 Clone
-  %h2.the_city_daytime The City: Daytime
+- content_for :title do
   %nav
     = link_to "<", "the_fields.html", class: "previous"
-    = link_to ">", "the_city_nighttime_part_1.html", class: "next"
+    = link_to ">", "#", class: "next"
+  %h1 Clone
+  %h2.the_city_daytime The City: Daytime
 
 %article#video
   %iframe(width="960" height="540" src="//www.youtube.com/embed/U5PD3_A1HaU" frameborder="0" allowfullscreen)
