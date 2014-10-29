@@ -1,6 +1,12 @@
-%header
-  %h2.the_ocean The Ocean
+- content_for :title do
   %nav
     = link_to "<", "the_city_nighttime_part_2.html", class: "previous"
+    = link_to ">", "the_laboratory.html", class: "next"
+  %h1 Clone
+  %h2.the_ocean The Ocean
 
-%section.video
+%article#video
+  %iframe(width="960" height="540" src="//www.youtube.com/embed/mCqWfoEMg1U" frameborder="0" allowfullscreen)
+
+- content_for :act_info do
+  = link_to "Act Info", 'act_info/the_ocean.html'
